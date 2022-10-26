@@ -89,6 +89,14 @@ function App() {
         <h1 className="mb-20" id="unid" style={{ backgroundColor: 'red' }}>
           Todo list
         </h1>
+        <div>
+          <input type="checkbox" />
+          <select>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+        </div>
         <AddTodo addTodo={addTodo} />
         {loading ? (
           <p>Chargement en cours</p>
