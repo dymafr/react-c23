@@ -89,7 +89,7 @@ function App() {
         <h1 className="mb-20" id="unid" style={{ backgroundColor: 'red' }}>
           Todo list
         </h1>
-        {/* <AddTodo addTodo={addTodo} />
+        <AddTodo addTodo={addTodo} />
         {loading ? (
           <p>Chargement en cours</p>
         ) : (
@@ -98,7 +98,7 @@ function App() {
             deleteTodo={deleteTodo}
             updateTodo={updateTodo}
           />
-        )} */}
+        )}
       </div>
     </div>
   );
