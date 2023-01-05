@@ -16,6 +16,7 @@ describe('my first set of tests', () => {
   });
 
   it('my second test', () => {
+    cy.visit('/');
     //     cy.get('input')
     //       .type('manger une pizza', { delay: 50 })
     //       .get('button')
